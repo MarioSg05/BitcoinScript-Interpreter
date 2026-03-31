@@ -28,6 +28,6 @@ public class Main {
         boolean esValida = interpreter.execute(scriptP2PKH);
         
         System.out.println("\n--- Resumen de Validación ---");
-        System.out.println("¿Transacción autorizada?: " + (esValida ? "SÍ" : "NO"));
+        System.out.println("¿Transacción autorizada?: " + (esValida ? "SI" : "NO"));
     }
 }
